@@ -17,3 +17,4 @@ renders/
 snapshots/
 .hyperframes/
 .media/cache/
+.thumbnails/
