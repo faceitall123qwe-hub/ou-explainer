@@ -1,7 +1,7 @@
 import { writeFileSync } from "node:fs";
 
 const SR = 44100;
-const DUR = 116;
+const DUR = 143;
 const BPM = 92;
 const beat = 60 / BPM;
 const bar = beat * 4;

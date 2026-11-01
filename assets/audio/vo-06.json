@@ -4,33 +4,9 @@
       "Type": "WordBoundary",
       "Data": {
         "Offset": 1000000,
-        "Duration": 5787080,
+        "Duration": 6136250,
         "text": {
-          "Text": "Таблицы",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 6787080,
-        "Duration": 5208330,
-        "text": {
-          "Text": "связаны",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 11995410,
-        "Duration": 3009160,
-        "text": {
-          "Text": "между",
+          "Text": "Excel",
           "Length": 5,
           "BoundaryType": "WordBoundary"
         }
@@ -39,118 +15,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 15004580,
-        "Duration": 4629580,
+        "Offset": 15613750,
+        "Duration": 5113330,
         "text": {
-          "Text": "собой",
-          "Length": 5,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 27930410,
-        "Duration": 5324160,
-        "text": {
-          "Text": "Заказ",
-          "Length": 5,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 33254580,
-        "Duration": 3935000,
-        "text": {
-          "Text": "хранит",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 37190000,
-        "Duration": 2893330,
-        "text": {
-          "Text": "номер",
-          "Length": 5,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 40083330,
-        "Duration": 4861250,
-        "text": {
-          "Text": "клиента",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 47143330,
-        "Duration": 1273330,
-        "text": {
-          "Text": "а",
-          "Length": 1,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 48416660,
-        "Duration": 3819580,
-        "text": {
-          "Text": "запрос",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 52236250,
-        "Duration": 1504580,
-        "text": {
-          "Text": "с",
-          "Length": 1,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 53740830,
-        "Duration": 4397910,
-        "text": {
-          "Text": "джойном",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 58138750,
-        "Duration": 4398330,
-        "text": {
-          "Text": "соединяет",
+          "Text": "Skoroszyt",
           "Length": 9,
           "BoundaryType": "WordBoundary"
         }
@@ -159,10 +27,34 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 62537080,
-        "Duration": 4397910,
+        "Offset": 20727080,
+        "Duration": 1136250,
         "text": {
-          "Text": "заказы",
+          "Text": "to",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 21863750,
+        "Duration": 4204580,
+        "text": {
+          "Text": "plik",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 27772910,
+        "Duration": 3181660,
+        "text": {
+          "Text": "arkusz",
           "Length": 6,
           "BoundaryType": "WordBoundary"
         }
@@ -171,10 +63,34 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 66935000,
-        "Duration": 810000,
+        "Offset": 30954580,
+        "Duration": 1022500,
         "text": {
-          "Text": "с",
+          "Text": "to",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 31977080,
+        "Duration": 5340830,
+        "text": {
+          "Text": "karta",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 39136250,
+        "Duration": 568330,
+        "text": {
+          "Text": "a",
           "Length": 1,
           "BoundaryType": "WordBoundary"
         }
@@ -183,10 +99,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 67745410,
-        "Duration": 3703750,
+        "Offset": 39704580,
+        "Duration": 3750000,
         "text": {
-          "Text": "именами",
+          "Text": "komórka",
           "Length": 7,
           "BoundaryType": "WordBoundary"
         }
@@ -195,11 +111,227 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 71449160,
-        "Duration": 5555410,
+        "Offset": 43454580,
+        "Duration": 1363750,
         "text": {
-          "Text": "клиентов",
+          "Text": "ma",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 44818330,
+        "Duration": 5000000,
+        "text": {
+          "Text": "adres",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 51522910,
+        "Duration": 908750,
+        "text": {
+          "Text": "na",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 52431660,
+        "Duration": 4772910,
+        "text": {
+          "Text": "przykład",
           "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 57204580,
+        "Duration": 5340830,
+        "text": {
+          "Text": "A1",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 70954580,
+        "Duration": 1818330,
+        "text": {
+          "Text": "Przy",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 72772910,
+        "Duration": 4772500,
+        "text": {
+          "Text": "kopiowaniu",
+          "Length": 10,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 77545410,
+        "Duration": 3636250,
+        "text": {
+          "Text": "adres",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 81181660,
+        "Duration": 3295420,
+        "text": {
+          "Text": "A1",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 84477080,
+        "Duration": 909160,
+        "text": {
+          "Text": "się",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 85386250,
+        "Duration": 5681660,
+        "text": {
+          "Text": "przesuwa",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 93227080,
+        "Duration": 681660,
+        "text": {
+          "Text": "a",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 93909160,
+        "Duration": 3522500,
+        "text": {
+          "Text": "dolar",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 97431660,
+        "Duration": 568330,
+        "text": {
+          "Text": "A",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 98000000,
+        "Duration": 2500000,
+        "text": {
+          "Text": "dolar",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 100500000,
+        "Duration": 3750000,
+        "text": {
+          "Text": "1",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 104250000,
+        "Duration": 3636250,
+        "text": {
+          "Text": "zostaje",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 107886250,
+        "Duration": 340830,
+        "text": {
+          "Text": "w",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 108227080,
+        "Duration": 5454580,
+        "text": {
+          "Text": "miejscu",
+          "Length": 7,
           "BoundaryType": "WordBoundary"
         }
       }

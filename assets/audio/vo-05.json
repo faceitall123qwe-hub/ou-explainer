@@ -4,141 +4,9 @@
       "Type": "WordBoundary",
       "Data": {
         "Offset": 1000000,
-        "Duration": 4166660,
+        "Duration": 3409160,
         "text": {
-          "Text": "Есть",
-          "Length": 4,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 5166660,
-        "Duration": 3356660,
-        "text": {
-          "Text": "четыре",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 8523330,
-        "Duration": 3587910,
-        "text": {
-          "Text": "базовые",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 12111250,
-        "Duration": 5092500,
-        "text": {
-          "Text": "операции",
-          "Length": 8,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 19865830,
-        "Duration": 4397910,
-        "text": {
-          "Text": "инсерт",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 24263750,
-        "Duration": 5440000,
-        "text": {
-          "Text": "добавляет",
-          "Length": 9,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 31092500,
-        "Duration": 3819580,
-        "text": {
-          "Text": "селект",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 34912080,
-        "Duration": 4513750,
-        "text": {
-          "Text": "читает",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 41046250,
-        "Duration": 4166660,
-        "text": {
-          "Text": "апдейт",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 45212910,
-        "Duration": 5092500,
-        "text": {
-          "Text": "изменяет",
-          "Length": 8,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 51810000,
-        "Duration": 1157500,
-        "text": {
-          "Text": "а",
-          "Length": 1,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 52967500,
-        "Duration": 3472080,
-        "text": {
-          "Text": "делит",
+          "Text": "Makro",
           "Length": 5,
           "BoundaryType": "WordBoundary"
         }
@@ -147,70 +15,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 56440000,
-        "Duration": 5671250,
+        "Offset": 4409160,
+        "Duration": 795410,
         "text": {
-          "Text": "удаляет",
-          "Length": 7,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 70407500,
-        "Duration": 4397910,
-        "text": {
-          "Text": "Почти",
-          "Length": 5,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 74805410,
-        "Duration": 3587910,
-        "text": {
-          "Text": "любое",
-          "Length": 5,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 78393330,
-        "Duration": 6018330,
-        "text": {
-          "Text": "приложение",
-          "Length": 10,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 84412080,
-        "Duration": 5555410,
-        "text": {
-          "Text": "построено",
-          "Length": 9,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 89967500,
-        "Duration": 1273330,
-        "text": {
-          "Text": "на",
+          "Text": "to",
           "Length": 2,
           "BoundaryType": "WordBoundary"
         }
@@ -219,11 +27,287 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 91240830,
-        "Duration": 3125000,
+        "Offset": 5204580,
+        "Duration": 1704580,
         "text": {
-          "Text": "них",
+          "Text": "mały",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 6909160,
+        "Duration": 3636250,
+        "text": {
+          "Text": "program",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 10545410,
+        "Duration": 227079,
+        "text": {
+          "Text": "w",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 10772910,
+        "Duration": 3522500,
+        "text": {
+          "Text": "języku",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 14295410,
+        "Duration": 1704580,
+        "text": {
+          "Text": "wu",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 16000000,
+        "Duration": 3181660,
+        "text": {
+          "Text": "be",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 19181660,
+        "Duration": 1136250,
+        "text": {
+          "Text": "a.",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 20318330,
+        "Duration": 5227080,
+        "text": {
+          "Text": "Rejestrator",
+          "Length": 11,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 25545410,
+        "Duration": 4545410,
+        "text": {
+          "Text": "zapamiętuje",
+          "Length": 11,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 30090830,
+        "Duration": 2159160,
+        "text": {
+          "Text": "twoje",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 32250000,
+        "Duration": 4886250,
+        "text": {
+          "Text": "kroki",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 38954580,
+        "Duration": 1477080,
+        "text": {
+          "Text": "ale",
           "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 40431660,
+        "Duration": 1136250,
+        "text": {
+          "Text": "nie",
+          "Length": 3,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 41568330,
+        "Duration": 2045410,
+        "text": {
+          "Text": "ruchy",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 43613750,
+        "Duration": 4318330,
+        "text": {
+          "Text": "myszy",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 55613750,
+        "Duration": 3636250,
+        "text": {
+          "Text": "Gotowe",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 59250000,
+        "Duration": 3181660,
+        "text": {
+          "Text": "makro",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 62431660,
+        "Duration": 4545410,
+        "text": {
+          "Text": "przypisujesz",
+          "Length": 12,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 66977080,
+        "Duration": 681660,
+        "text": {
+          "Text": "do",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 67659160,
+        "Duration": 3067910,
+        "text": {
+          "Text": "skrótu",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 70727080,
+        "Duration": 5454580,
+        "text": {
+          "Text": "klawiszy",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 76181660,
+        "Duration": 2272910,
+        "text": {
+          "Text": "albo",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 78454580,
+        "Duration": 681660,
+        "text": {
+          "Text": "do",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 79136250,
+        "Duration": 6363750,
+        "text": {
+          "Text": "przycisku",
+          "Length": 9,
           "BoundaryType": "WordBoundary"
         }
       }

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
+  <body>
+    <template>
+      <style>
+#s11-root { position:absolute; inset:0; }
+#s11-root .stage { position:absolute; inset:0; }
+#s11-root .ci { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; text-align:center; }
+#s11-root .ci .ic { width:72px; height:72px; stroke-width:1.5; color:var(--green); }
+#s11-root .m0 { left:150px; top:120px; width:500px; height:210px; }
+#s11-root .m1 { left:710px; top:120px; width:500px; height:210px; }
+#s11-root .m2 { left:1270px; top:120px; width:500px; height:210px; }
+#s11-root .m3 { left:150px; top:370px; width:500px; height:210px; }
+#s11-root .m4 { left:710px; top:370px; width:500px; height:210px; }
+#s11-root .m5 { left:1270px; top:370px; width:500px; height:210px; }
+#s11-root .ob { position:absolute; left:0; right:0; top:690px; text-align:center; }
+#s11-root .fin { position:absolute; left:0; right:0; top:820px; text-align:center; font-size:110px; }
+      </style>
+      <div id="s11-root" data-composition-id="s11" data-width="1920" data-height="1080">
+        <div class="stage">
+<div class="card ci m0"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="8" height="8" x="3" y="3" rx="2" /> <path d="M7 11v4a2 2 0 0 0 2 2h4" /> <rect width="8" height="8" x="13" y="13" rx="2" /> </svg> <span class="lb">algorytm</span></div>
+<div class="card ci m1"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2" /> </svg> <span class="lb">formuły</span></div>
+<div class="card ci m2"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="1" /> <circle cx="12" cy="12" r="10" /> </svg> <span class="lb">makra</span></div>
+<div class="card ci m3"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="18" x="3" y="3" rx="2" /> <path d="M3 9h18" /> <path d="M3 15h18" /> <path d="M9 3v18" /> <path d="M15 3v18" /> </svg> <span class="lb">adresowanie</span></div>
+<div class="card ci m4"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="m18 16 4-4-4-4" /> <path d="m6 8-4 4 4 4" /> <path d="m14.5 4-5 16" /> </svg> <span class="lb">VBA</span></div>
+<div class="card ci m5"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect x="2" y="4" width="20" height="16" rx="2" /> <path d="M10 4v4" /> <path d="M2 8h20" /> <path d="M6 4v4" /> </svg> <span class="lb">UserForm</span></div>
+<div class="lb ob">Na obronie: <span class="y">znaj swój kod</span> i co robi każdy przycisk</div>
+<h1 class="hd fin"><span class="g">Powodzenia!</span></h1>
+        </div>
+      </div>
+      <script>
+        (function () {
+          var R = "#s11-root ";
+          var $ = function (s) { return R + s; };
+          var V = function (w) { return w + 0.3; };
+          var E = "power3.out", IO = "power2.inOut";
+          var tl = gsap.timeline({ paused: true });
+          function type(sel, t, step) {
+            var els = document.querySelectorAll(R + sel + " .ch");
+            for (var i = 0; i < els.length; i++) tl.set(els[i], { display: "inline" }, t + i * (step || 0.045));
+          }
+          function draw(sel, t, d) {
+            tl.fromTo($(sel), { strokeDasharray: 1, strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d || 0.5, ease: "power2.out" }, t);
+          }
+          tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
+
+tl.fromTo($(".m0"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(0.1));
+tl.fromTo($(".m1"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(1));
+tl.fromTo($(".m2"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(1.78));
+tl.fromTo($(".m3"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(2.49));
+tl.fromTo($(".m4"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(3.38));
+tl.fromTo($(".m5"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(4.09));
+tl.fromTo($(".ob"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.57));
+tl.fromTo($(".fin"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, V(9.71));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 11.78);
+          window.__timelines["s11"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

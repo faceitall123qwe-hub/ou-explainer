@@ -1,39 +1,28 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s08-root { position:absolute; inset:0; }
 #s08-root .stage { position:absolute; inset:0; }
 #s08-root .hd { position:absolute; left:140px; top:96px; }
-#s08-root .ac { top:300px; width:380px; height:220px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; color:var(--muted); }
-#s08-root .ac .ic { width:56px; height:56px; stroke-width:1.5; }
-#s08-root .ac .bal { position:relative; height:72px; width:300px; }
-#s08-root .ac .bal span { position:absolute; left:0; right:0; text-align:center; font-size:60px; color:var(--text); }
-#s08-root .a0 { left:140px; } #s08-root .a1 { left:1400px; }
-#s08-root .tx { position:absolute; left:560px; top:270px; width:800px; height:300px; border-radius:30px; border:2px dashed rgba(245,197,24,.6); padding:30px 40px; display:flex; flex-direction:column; gap:18px; }
-#s08-root .tx .t { color:var(--yellow); }
-#s08-root .op { display:flex; align-items:center; gap:16px; height:60px; }
-#s08-root .op .ic { width:40px; height:40px; color:var(--green); stroke-width:2; }
-#s08-root .cm { position:absolute; left:560px; top:600px; width:800px; text-align:center; color:var(--green); font-size:52px; }
-#s08-root .rb { position:absolute; left:460px; top:700px; width:1000px; display:flex; justify-content:center; align-items:center; gap:16px; color:var(--muted); }
-#s08-root .rb .ic { width:44px; height:44px; color:var(--yellow); }
-#s08-root .cap { position:absolute; left:0; right:0; top:840px; text-align:center; font-size:60px; font-weight:600; letter-spacing:-0.02em; }
-
+#s08-root .ir { position:absolute; left:140px; width:1640px; display:flex; justify-content:space-between; align-items:center; height:110px; padding:0 34px; border-radius:20px; border:1.5px solid var(--line); background:var(--panel); }
+#s08-root .i0 { top:270px; }
+#s08-root .i1 { top:400px; }
+#s08-root .i2 { top:530px; }
+#s08-root .i3 { top:660px; }
+#s08-root .i4 { top:790px; }
+#s08-root .ir .lb { color:var(--muted); }
       </style>
-      <div data-hf-id="hf-tdq0" id="s08-root" data-composition-id="s08" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-1at6" class="hd"><span data-hf-id="hf-p7u6" class="g">Транзакции</span></h1>
-<div data-hf-id="hf-fhvd" class="card ac a0"><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-p8r5" d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" /> <path data-hf-id="hf-zlbc" d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /> </svg> <span data-hf-id="hf-cwyf" class="lb">счёт A</span><div data-hf-id="hf-bnz5" class="bal"><span data-hf-id="hf-r1b3" class="mono b0">1000</span><span data-hf-id="hf-4pxp" class="mono b1">800</span></div></div>
-<div data-hf-id="hf-eq7k" class="card ac a1"><svg data-hf-id="hf-9ojp" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-6cqt" d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" /> <path data-hf-id="hf-qmxs" d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /> </svg> <span data-hf-id="hf-cine" class="lb">счёт B</span><div data-hf-id="hf-uqt1" class="bal"><span data-hf-id="hf-9qo9" class="mono b0">500</span><span data-hf-id="hf-uvx4" class="mono b1">700</span></div></div>
-<div data-hf-id="hf-xias" class="tx"><span data-hf-id="hf-5nqx" class="mono t">BEGIN</span>
-  <div data-hf-id="hf-dzbq" class="op o0 lb"><svg data-hf-id="hf-avgs" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-2q26" d="M20 6 9 17l-5-5" /> </svg> списать 200 со счёта A</div>
-  <div data-hf-id="hf-g1u3" class="op o1 lb"><svg data-hf-id="hf-ah5r" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-l5ki" d="M20 6 9 17l-5-5" /> </svg> зачислить 200 на счёт B</div></div>
-<div data-hf-id="hf-ta2g" class="cm mono">COMMIT</div>
-<div data-hf-id="hf-klmv" class="rb lb"><svg data-hf-id="hf-bo2u" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-i1c6" d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path data-hf-id="hf-jwj3" d="M3 3v5h5" /> </svg> ошибка? ROLLBACK, всё как было</div>
-<div data-hf-id="hf-pfbo" class="cap">Либо <span data-hf-id="hf-g1k4" class="g">всё</span>, либо <span data-hf-id="hf-d2aq" class="y">ничего</span></div>
+      <div id="s08-root" data-composition-id="s08" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd">Najważniejsze <span class="g">instrukcje</span></h1>
+<div class="ir i0"><span class="mono"><span class="y">Dim</span>&nbsp;wiek&nbsp;<span class="y">As&nbsp;Integer</span></span><span class="lb">deklaruje zmienną</span></div>
+<div class="ir i1"><span class="mono">wiek&nbsp;=&nbsp;<span class="y">InputBox</span>("Ile&nbsp;masz&nbsp;lat?")</span><span class="lb">pyta użytkownika</span></div>
+<div class="ir i2"><span class="mono"><span class="y">MsgBox</span>&nbsp;"Witaj!"</span><span class="lb">pokazuje komunikat</span></div>
+<div class="ir i3"><span class="mono"><span class="y">If</span>&nbsp;wiek&nbsp;&gt;=&nbsp;18&nbsp;<span class="y">Then</span>&nbsp;...&nbsp;<span class="y">End&nbsp;If</span></span><span class="lb">wybiera drogę</span></div>
+<div class="ir i4"><span class="mono"><span class="y">For</span>&nbsp;i&nbsp;=&nbsp;1&nbsp;<span class="y">To</span>&nbsp;10&nbsp;...&nbsp;<span class="y">Next</span></span><span class="lb">powtarza kroki</span></div>
         </div>
       </div>
       <script>
@@ -52,18 +41,12 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo($(".tx"), { opacity: 0, scale: 0.97 }, { opacity: 1, scale: 1, duration: 0.6, ease: E }, V(0.9));
-tl.fromTo($(".ac"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E, stagger: 0.12 }, V(3.7));
-tl.set($(".b1"), { opacity: 0 }, 0);
-tl.fromTo($(".o0"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, V(5.2));
-tl.to($(".a0 .b0"), { opacity: 0, duration: 0.25 }, V(5.6)); tl.to($(".a0 .b1"), { opacity: 1, duration: 0.25 }, V(5.7));
-tl.fromTo($(".o1"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, V(6.6));
-tl.to($(".a1 .b0"), { opacity: 0, duration: 0.25 }, V(7.0)); tl.to($(".a1 .b1"), { opacity: 1, duration: 0.25 }, V(7.1));
-tl.fromTo($(".cm"), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.4, ease: E }, V(7.6));
-tl.fromTo($(".rb"), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(8.6));
-tl.fromTo($(".cap"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(9.4));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 11.45);
+tl.fromTo($(".i0"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(0.1));
+tl.fromTo($(".i1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(2.3));
+tl.fromTo($(".i2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.19));
+tl.fromTo($(".i3"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(6.64));
+tl.fromTo($(".i4"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(7.87));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 10.94);
           window.__timelines["s08"] = tl;
         })();
       </script>

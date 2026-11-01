@@ -1,31 +1,27 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s05-root { position:absolute; inset:0; }
 #s05-root .stage { position:absolute; inset:0; }
-#s05-root .hd { position:absolute; left:140px; top:96px; }
-#s05-root .cr { top:330px; width:380px; height:300px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; color:var(--muted); }
-#s05-root .cr .ic { width:68px; height:68px; stroke-width:1.5; }
-#s05-root .cr .mono { font-size:52px; color:var(--text); }
-#s05-root .cr0 { left:140px; }
-#s05-root .cr1 { left:560px; }
-#s05-root .cr2 { left:980px; }
-#s05-root .cr3 { left:1400px; }
-#s05-root .cap { position:absolute; left:0; right:0; top:760px; text-align:center; font-size:56px; font-weight:600; letter-spacing:-0.02em; }
-
+#s05-root .hd { position:absolute; left:140px; top:96px; }#s05-root .ci { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; text-align:center; }
+#s05-root .ci .ic { width:72px; height:72px; stroke-width:1.5; color:var(--green); }
+#s05-root .rec { left:140px; top:290px; width:1640px; height:200px; flex-direction:row; gap:60px; }
+#s05-root .rec .ic { color:#ff6b5b; }
+#s05-root .ok { color:var(--green); } #s05-root .no { color:#ff6b5b; }
+#s05-root .k0 { left:140px; top:560px; width:780px; height:300px; }
+#s05-root .k1 { left:1000px; top:560px; width:780px; height:300px; }
+#s05-root .kc { display:flex; gap:14px; }
+#s05-root .kc span { padding:10px 26px; border-radius:16px; border:2px solid var(--line); background:#0e1311; }
       </style>
-      <div data-hf-id="hf-848w" id="s05-root" data-composition-id="s05" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-nwlq" class="hd">Четыре <span data-hf-id="hf-faww" class="g">операции</span></h1>
-<div data-hf-id="hf-k4s4" class="card cr cr0"><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-8gds" d="M5 12h14" /> <path data-hf-id="hf-um4s" d="M12 5v14" /> </svg> <span data-hf-id="hf-1nn9" class="mono">INSERT</span><span data-hf-id="hf-tdjo" class="lb">добавить</span></div>
-<div data-hf-id="hf-kwfx" class="card cr cr1"><svg data-hf-id="hf-9ojp" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-zgu7" d="m21 21-4.34-4.34" /> <circle data-hf-id="hf-7tjq" cx="11" cy="11" r="8" /> </svg> <span data-hf-id="hf-mu9k" class="mono">SELECT</span><span data-hf-id="hf-ydp9" class="lb">прочитать</span></div>
-<div data-hf-id="hf-oujy" class="card cr cr2"><svg data-hf-id="hf-avgs" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-901a" d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" /> <path data-hf-id="hf-wusw" d="m15 5 4 4" /> </svg> <span data-hf-id="hf-1j9t" class="mono">UPDATE</span><span data-hf-id="hf-cmda" class="lb">изменить</span></div>
-<div data-hf-id="hf-ssnz" class="card cr cr3"><svg data-hf-id="hf-ah5r" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-a8p2" d="M10 11v6" /> <path data-hf-id="hf-boea" d="M14 11v6" /> <path data-hf-id="hf-nyec" d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" /> <path data-hf-id="hf-meqn" d="M3 6h18" /> <path data-hf-id="hf-q9ie" d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /> </svg> <span data-hf-id="hf-5zyj" class="mono">DELETE</span><span data-hf-id="hf-06pl" class="lb">удалить</span></div>
-<div data-hf-id="hf-hk3c" class="cap">Почти любое приложение <span data-hf-id="hf-w4w9" class="g">построено на них</span></div>
+      <div id="s05-root" data-composition-id="s05" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd">Makro = program w <span class="g">VBA</span></h1>
+<div class="card ci rec"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <circle cx="12" cy="12" r="1" /> <circle cx="12" cy="12" r="10" /> </svg> <span class="lb">Rejestrator makr</span><span class="lb ok r1">kroki ✓</span><span class="lb no r2">ruchy myszy ✗</span></div>
+<div class="card ci k0"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M10 8h.01" /> <path d="M12 12h.01" /> <path d="M14 8h.01" /> <path d="M16 12h.01" /> <path d="M18 8h.01" /> <path d="M6 8h.01" /> <path d="M7 16h10" /> <path d="M8 12h.01" /> <rect width="20" height="16" x="2" y="4" rx="2" /> </svg> <div class="kc mono"><span>Ctrl</span><span>Alt</span><span>F</span></div><span class="lb muted">skrót klawiszy</span></div>
+<div class="card ci k1"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <path d="M14 4.1 12 6" /> <path d="m5.1 8-2.9-.8" /> <path d="m6 12-1.9 2" /> <path d="M7.2 2.2 8 5.1" /> <path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z" /> </svg> <span class="lb">▶ Uruchom makro</span><span class="lb muted">przycisk</span></div>
         </div>
       </div>
       <script>
@@ -44,18 +40,12 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo($(".cr"), { opacity: 0, y: 20 }, { opacity: 0.4, y: 0, duration: 0.5, ease: E, stagger: 0.1 }, V(0.5));
-tl.to($(".cr0"), { opacity: 1, color: "#3ee08f", borderColor: "rgba(62,224,143,.6)", duration: 0.4 }, V(1.99));
-tl.fromTo($(".cr0"), { y: 0 }, { y: -10, duration: 0.4, ease: E }, V(1.99));
-tl.to($(".cr1"), { opacity: 1, color: "#3ee08f", borderColor: "rgba(62,224,143,.6)", duration: 0.4 }, V(3.11));
-tl.fromTo($(".cr1"), { y: 0 }, { y: -10, duration: 0.4, ease: E }, V(3.11));
-tl.to($(".cr2"), { opacity: 1, color: "#3ee08f", borderColor: "rgba(62,224,143,.6)", duration: 0.4 }, V(4.1));
-tl.fromTo($(".cr2"), { y: 0 }, { y: -10, duration: 0.4, ease: E }, V(4.1));
-tl.to($(".cr3"), { opacity: 1, color: "#3ee08f", borderColor: "rgba(62,224,143,.6)", duration: 0.4 }, V(5.3));
-tl.fromTo($(".cr3"), { y: 0 }, { y: -10, duration: 0.4, ease: E }, V(5.3));
-tl.fromTo($(".cap"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(7.0));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 9.85);
+tl.fromTo($(".rec"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(2.03));
+tl.fromTo($(".r1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(3.23));
+tl.fromTo($(".r2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.36));
+tl.fromTo($(".k0"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(6.77));
+tl.fromTo($(".k1"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(7.91));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 9.83);
           window.__timelines["s05"] = tl;
         })();
       </script>

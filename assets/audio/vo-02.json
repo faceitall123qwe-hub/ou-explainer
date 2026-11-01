@@ -4,10 +4,10 @@
       "Type": "WordBoundary",
       "Data": {
         "Offset": 1000000,
-        "Duration": 4976660,
+        "Duration": 4659160,
         "text": {
-          "Text": "Самые",
-          "Length": 5,
+          "Text": "Przedmiot",
+          "Length": 9,
           "BoundaryType": "WordBoundary"
         }
       }
@@ -15,11 +15,11 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 5976660,
-        "Duration": 5324160,
+        "Offset": 5659160,
+        "Duration": 1022500,
         "text": {
-          "Text": "популярные",
-          "Length": 10,
+          "Text": "ma",
+          "Length": 2,
           "BoundaryType": "WordBoundary"
         }
       }
@@ -27,34 +27,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 11300830,
-        "Duration": 3356660,
+        "Offset": 6681660,
+        "Duration": 2613750,
         "text": {
-          "Text": "базы",
-          "Length": 4,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 14657500,
-        "Duration": 7870410,
-        "text": {
-          "Text": "реляционные",
-          "Length": 11,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 30361250,
-        "Duration": 5323750,
-        "text": {
-          "Text": "Данные",
+          "Text": "siedem",
           "Length": 6,
           "BoundaryType": "WordBoundary"
         }
@@ -63,94 +39,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 35685000,
-        "Duration": 4398330,
+        "Offset": 9295410,
+        "Duration": 6477080,
         "text": {
-          "Text": "хранятся",
-          "Length": 8,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 40083330,
-        "Duration": 347080,
-        "text": {
-          "Text": "в",
-          "Length": 1,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 40430410,
-        "Duration": 5208330,
-        "text": {
-          "Text": "таблицах",
-          "Length": 8,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 46680410,
-        "Duration": 4398330,
-        "text": {
-          "Text": "строки",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 51078750,
-        "Duration": 1620410,
-        "text": {
-          "Text": "это",
-          "Length": 3,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 52699160,
-        "Duration": 4629580,
-        "text": {
-          "Text": "записи",
-          "Length": 6,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 59065000,
-        "Duration": 1388750,
-        "text": {
-          "Text": "а",
-          "Length": 1,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 60453750,
-        "Duration": 4513750,
-        "text": {
-          "Text": "столбцы",
+          "Text": "zjazdów",
           "Length": 7,
           "BoundaryType": "WordBoundary"
         }
@@ -159,11 +51,11 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 64967500,
-        "Duration": 2083330,
+        "Offset": 23454580,
+        "Duration": 4659160,
         "text": {
-          "Text": "это",
-          "Length": 3,
+          "Text": "Zaliczasz",
+          "Length": 9,
           "BoundaryType": "WordBoundary"
         }
       }
@@ -171,11 +63,11 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 67050830,
-        "Duration": 3009160,
+        "Offset": 28113750,
+        "Duration": 909160,
         "text": {
-          "Text": "поля",
-          "Length": 4,
+          "Text": "go",
+          "Length": 2,
           "BoundaryType": "WordBoundary"
         }
       }
@@ -183,34 +75,10 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 72837910,
-        "Duration": 4050830,
+        "Offset": 29022910,
+        "Duration": 2386250,
         "text": {
-          "Text": "например",
-          "Length": 8,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 76888750,
-        "Duration": 3819580,
-        "text": {
-          "Text": "имя",
-          "Length": 3,
-          "BoundaryType": "WordBoundary"
-        }
-      }
-    },
-    {
-      "Type": "WordBoundary",
-      "Data": {
-        "Offset": 81865830,
-        "Duration": 5092500,
-        "text": {
-          "Text": "почта",
+          "Text": "dwoma",
           "Length": 5,
           "BoundaryType": "WordBoundary"
         }
@@ -219,10 +87,34 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 86958330,
-        "Duration": 1157500,
+        "Offset": 31409160,
+        "Duration": 6704580,
         "text": {
-          "Text": "и",
+          "Text": "projektami",
+          "Length": 10,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 39931660,
+        "Duration": 4886250,
+        "text": {
+          "Text": "aplikacją",
+          "Length": 9,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 44818330,
+        "Duration": 567910,
+        "text": {
+          "Text": "w",
           "Length": 1,
           "BoundaryType": "WordBoundary"
         }
@@ -231,11 +123,263 @@
     {
       "Type": "WordBoundary",
       "Data": {
-        "Offset": 88115830,
-        "Duration": 4282500,
+        "Offset": 45386250,
+        "Duration": 4318330,
         "text": {
-          "Text": "город",
+          "Text": "Excelu",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 49704580,
+        "Duration": 795410,
+        "text": {
+          "Text": "z",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 50500000,
+        "Duration": 1363750,
+        "text": {
+          "Text": "wu",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 51863750,
+        "Duration": 2386250,
+        "text": {
+          "Text": "be",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 54250000,
+        "Duration": 1818330,
+        "text": {
+          "Text": "a",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 56068330,
+        "Duration": 795410,
+        "text": {
+          "Text": "i",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 56863750,
+        "Duration": 2840830,
+        "text": {
+          "Text": "bazą",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 59704580,
+        "Duration": 3295410,
+        "text": {
+          "Text": "danych",
+          "Length": 6,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 63000000,
+        "Duration": 454580,
+        "text": {
+          "Text": "w",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 63454580,
+        "Duration": 6022910,
+        "text": {
+          "Text": "Accessie",
+          "Length": 8,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 77772910,
+        "Duration": 3636250,
+        "text": {
+          "Text": "Ocena",
           "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 81409160,
+        "Duration": 909160,
+        "text": {
+          "Text": "to",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 82318330,
+        "Duration": 3295410,
+        "text": {
+          "Text": "średnia",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 85613750,
+        "Duration": 454580,
+        "text": {
+          "Text": "z",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 86068330,
+        "Duration": 4317910,
+        "text": {
+          "Text": "projektów",
+          "Length": 9,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 90386250,
+        "Duration": 2045410,
+        "text": {
+          "Text": "plus",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 92431660,
+        "Duration": 2386250,
+        "text": {
+          "Text": "pięć",
+          "Length": 4,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 94818330,
+        "Duration": 3295410,
+        "text": {
+          "Text": "pytań",
+          "Length": 5,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 98113750,
+        "Duration": 681660,
+        "text": {
+          "Text": "do",
+          "Length": 2,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 98795410,
+        "Duration": 3636250,
+        "text": {
+          "Text": "każdego",
+          "Length": 7,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 102431660,
+        "Duration": 795410,
+        "text": {
+          "Text": "z",
+          "Length": 1,
+          "BoundaryType": "WordBoundary"
+        }
+      }
+    },
+    {
+      "Type": "WordBoundary",
+      "Data": {
+        "Offset": 103227080,
+        "Duration": 3522910,
+        "text": {
+          "Text": "nich",
+          "Length": 4,
           "BoundaryType": "WordBoundary"
         }
       }

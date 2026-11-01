@@ -1,33 +1,31 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s09-root { position:absolute; inset:0; }
 #s09-root .stage { position:absolute; inset:0; }
 #s09-root .hd { position:absolute; left:140px; top:96px; }
-#s09-root .dc { left:140px; top:300px; width:800px; height:440px; }
-#s09-root .dc .body { font-size:48px; gap:4px; }
-#s09-root .kv { left:1020px; top:300px; width:760px; height:440px; padding:30px 40px; }
-#s09-root .kv .t { display:flex; align-items:center; gap:16px; color:var(--muted); margin-bottom:24px; }
-#s09-root .kv .t .ic { width:44px; height:44px; color:var(--green); }
-#s09-root .kr { display:flex; align-items:center; gap:24px; height:88px; }
-#s09-root .kr .k { color:var(--yellow); width:300px; }
-#s09-root .kr .a { color:var(--muted); }
-#s09-root .cap { position:absolute; left:0; right:0; top:820px; text-align:center; color:var(--muted); }
-#s09-root .cap .g { color:var(--green); }
-
+#s09-root .uf { left:140px; top:270px; width:820px; height:640px; overflow:hidden; }
+#s09-root .uf .tt { height:70px; display:flex; align-items:center; padding:0 28px; border-bottom:1.5px solid var(--line); color:var(--muted); }
+#s09-root .el { position:absolute; left:40px; }
+#s09-root .lab { top:110px; }
+#s09-root .tbx { top:180px; width:740px; height:80px; border-radius:12px; border:2px solid var(--line); background:#0e1311; }
+#s09-root .lst { top:290px; width:740px; height:200px; border-radius:12px; border:2px solid var(--line); background:#0e1311; padding:14px 22px; display:flex; flex-direction:column; gap:6px; }
+#s09-root .btn { top:520px; padding:16px 40px; border-radius:14px; background:rgba(62,224,143,.14); border:2px solid var(--green); color:var(--green); }
+#s09-root .cd2 .body { font-size:44px; }
       </style>
-      <div data-hf-id="hf-ricw" id="s09-root" data-composition-id="s09" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-tkvp" class="hd">Нереляционные: <span data-hf-id="hf-t19d" class="g">NoSQL</span></h1>
-<div data-hf-id="hf-ohbh" class="term dc"><div data-hf-id="hf-ufsv" class="bar"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i><span data-hf-id="hf-z9di" class="mono muted">документ JSON</span></div>
-  <div data-hf-id="hf-2t3w" class="body"><div data-hf-id="hf-bk5i" class="mono dl d0">{</div><div data-hf-id="hf-r1ud" class="mono dl d1">&#160;&#160;"имя":&#160;"Анна",</div><div data-hf-id="hf-1aiw" class="mono dl d2">&#160;&#160;"город":&#160;"Варшава",</div><div data-hf-id="hf-xnq3" class="mono dl d3">&#160;&#160;"теги":&#160;["vip"]</div><div data-hf-id="hf-2jls" class="mono dl d4">}</div></div></div>
-<div data-hf-id="hf-zue5" class="card kv"><div data-hf-id="hf-izsg" class="t lb"><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-wrgb" d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /> <circle data-hf-id="hf-gxb3" cx="16.5" cy="7.5" r=".5" fill="currentColor" /> </svg> ключ → значение</div>
-<div data-hf-id="hf-4kqg" class="kr k0"><span data-hf-id="hf-ty83" class="mono k">session:42</span><span data-hf-id="hf-2ups" class="lb a">→</span><span data-hf-id="hf-6sgo" class="mono">{…}</span></div><div data-hf-id="hf-5ce9" class="kr k1"><span data-hf-id="hf-p30e" class="mono k">cart:7</span><span data-hf-id="hf-xszc" class="lb a">→</span><span data-hf-id="hf-ibml" class="mono">3&#160;товара</span></div><div data-hf-id="hf-9aia" class="kr k2"><span data-hf-id="hf-bqxg" class="mono k">views:home</span><span data-hf-id="hf-wm29" class="lb a">→</span><span data-hf-id="hf-e195" class="mono">18&#160;233</span></div></div>
-<div data-hf-id="hf-wsco" class="cap lb">удобно, когда <span data-hf-id="hf-oqaf" class="g">структура часто меняется</span></div>
+      <div id="s09-root" data-composition-id="s09" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd"><span class="g">UserForm</span> = okno aplikacji</h1>
+<div class="card uf"><div class="tt mono">UserForm1</div>
+<div class="el lab lb">Tytuł:</div><div class="el tbx"></div>
+<div class="el lst mono"><span>Life 3.0</span><span class="muted">Deep Learning</span></div>
+<div class="el btn lb">Dodaj książkę</div></div>
+<div class="term cd2" style="left:1020px; top:270px; width:760px">
+<div class="bar"><i></i><i></i><i></i><span class="mono muted">kod</span></div>
+<div class="body"><div class="mono l0"><span class="y">Private Sub</span> CommandButton1_Click()</div><div class="mono l1"><span class="muted">' kod przycisku</span></div><div class="mono l2"><span class="y">End Sub</span></div><div class="mono l3"></div><div class="mono l4">UserForm1.<span class="g">Show</span></div><div class="mono l5"><span class="g">Unload Me</span></div></div></div>
         </div>
       </div>
       <script>
@@ -46,13 +44,16 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo($(".dc"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.5));
-tl.fromTo($(".dl"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.3, ease: E, stagger: 0.1 }, V(4.9));
-tl.fromTo($(".kv"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(6.1));
-tl.fromTo($(".kr"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.35, ease: E, stagger: 0.15 }, V(6.5));
-tl.fromTo($(".cap"), { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(8.6));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 12.15);
+tl.fromTo($(".uf"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(0.1));
+tl.fromTo($(".lab"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(3.87));
+tl.fromTo($(".tbx"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.62));
+tl.fromTo($(".lst"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.63));
+tl.fromTo($(".btn"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(6.11));
+tl.fromTo($(".cd2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(7.57));
+tl.fromTo([$(".cd2 .l3"), $(".cd2 .l4")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(10.79));
+tl.fromTo($(".cd2 .l5"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(13.23));
+tl.set([$(".cd2 .l3"), $(".cd2 .l4"), $(".cd2 .l5")], { opacity: 0 }, 0);
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 16.27);
           window.__timelines["s09"] = tl;
         })();
       </script>

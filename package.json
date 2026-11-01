@@ -1,5 +1,5 @@
 {
-  "name": "db-explainer",
+  "name": "ou-explainer",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,6 +11,6 @@
   "devDependencies": {
     "geist": "^1.7.2",
     "lucide-static": "^1.52.0",
-    "msedge-tts": "^2.0.9"
+    "msedge-tts": "^2.1.1"
   }
 }

@@ -1,36 +1,38 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s03-root { position:absolute; inset:0; }
 #s03-root .stage { position:absolute; inset:0; }
 #s03-root .hd { position:absolute; left:140px; top:96px; }
-#s03-root .tb { position:absolute; border-radius:22px; background:var(--panel); border:1.5px solid var(--line); overflow:hidden; }
-#s03-root .tr { display:flex; height:76px; align-items:center; border-top:1.5px solid var(--line); position:relative; }
-#s03-root .tr.th { border-top:none; color:var(--muted); background:#0e1311; }
-#s03-root .tc { padding:0 24px; white-space:nowrap; }
-
-#s03-root .t .c0 { color:var(--green); }
-#s03-root .kl { position:absolute; left:370px; top:760px; display:flex; align-items:center; gap:16px; color:var(--green); }
-#s03-root .kl .ic { width:48px; height:48px; stroke-width:1.7; }
-#s03-root .same { position:absolute; left:510px; top:810px; color:var(--yellow); }
-
+#s03-root .fl { position:absolute; top:270px; height:130px; width:460px; display:flex; align-items:center; justify-content:center; }
+#s03-root .f0 { left:140px; }
+#s03-root .f1 { left:730px; }
+#s03-root .f2 { left:1320px; }
+#s03-root .f1 { border-color:rgba(62,224,143,.55); }
+#s03-root .ar { position:absolute; top:312px; color:var(--muted); font-size:56px; }
+#s03-root .sh { position:absolute; top:520px; width:380px; display:flex; flex-direction:column; align-items:center; gap:14px; }
+#s03-root .sh svg { width:240px; height:140px; }
+#s03-root .sh svg * { fill:rgba(62,224,143,.08); stroke:var(--green); stroke-width:3; }
+#s03-root .sh .muted { font-size:44px; }
+#s03-root .s0 { left:130px; }
+#s03-root .s1 { left:550px; }
+#s03-root .s2 { left:970px; }
+#s03-root .s3 { left:1390px; }
       </style>
-      <div data-hf-id="hf-4ups" id="s03-root" data-composition-id="s03" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-z0v4" class="hd">Первичный <span data-hf-id="hf-mmb8" class="g">ключ</span></h1>
-<div data-hf-id="hf-zuzj" class="tb t" style="left:370px; top:340px; width:1160px">
-<div data-hf-id="hf-k0e6" class="tr th"><span data-hf-id="hf-56d7" class="tc lb c0" style="width:140px">id</span><span data-hf-id="hf-u1ld" class="tc lb c1" style="width:240px">имя</span><span data-hf-id="hf-d6vz" class="tc lb c2" style="width:480px">почта</span><span data-hf-id="hf-iuog" class="tc lb c3" style="width:300px">город</span></div>
-<div data-hf-id="hf-gtjw" class="tr r0"><span data-hf-id="hf-9wm2" class="tc mono c0" style="width:140px">1</span><span data-hf-id="hf-ccpz" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-ze0s" class="tc mono c2" style="width:480px">anna@mail.ru</span><span data-hf-id="hf-xnj2" class="tc mono c3" style="width:300px">Варшава</span></div>
-<div data-hf-id="hf-hl7p" class="tr r1"><span data-hf-id="hf-aax3" class="tc mono c0" style="width:140px">2</span><span data-hf-id="hf-hfvw" class="tc mono c1" style="width:240px">Иван</span><span data-hf-id="hf-uloa" class="tc mono c2" style="width:480px">ivan@mail.ru</span><span data-hf-id="hf-k8ma" class="tc mono c3" style="width:300px">Краков</span></div>
-<div data-hf-id="hf-ljbq" class="tr r2"><span data-hf-id="hf-ap84" class="tc mono c0" style="width:140px">3</span><span data-hf-id="hf-g2rr" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-tt7z" class="tc mono c2" style="width:480px">anna.k@mail.ru</span><span data-hf-id="hf-zmtt" class="tc mono c3" style="width:300px">Гданьск</span></div>
-<div data-hf-id="hf-phfr" class="tr r3"><span data-hf-id="hf-b3j5" class="tc mono c0" style="width:140px">4</span><span data-hf-id="hf-x0q2" class="tc mono c1" style="width:240px">Олег</span><span data-hf-id="hf-4n7h" class="tc mono c2" style="width:480px">oleg@mail.ru</span><span data-hf-id="hf-nkn6" class="tc mono c3" style="width:300px">Варшава</span></div>
-</div>
-<div data-hf-id="hf-0h4p" class="kl lb"><svg data-hf-id="hf-p3wx" class="ic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path data-hf-id="hf-wrgb" d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /> <circle data-hf-id="hf-gxb3" cx="16.5" cy="7.5" r=".5" fill="currentColor" /> </svg> <span data-hf-id="hf-wubr">id: уникальный у каждой строки</span></div>
-<div data-hf-id="hf-6qbw" class="same lb">две «Анны», но id разные</div>
+      <div id="s03-root" data-composition-id="s03" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd"><span class="g">Algorytm</span> = przepis</h1>
+<div class="card fl f0"><span class="lb">dane wejściowe</span></div>
+<div class="card fl f1"><span class="lb">przetwarzanie</span></div>
+<div class="card fl f2"><span class="lb">dane wyjściowe</span></div>
+<div class="ar a0" style="left:620px">→</div><div class="ar a1" style="left:1210px">→</div>
+<div class="sh s0"><svg viewBox="0 0 240 140"><rect x="10" y="20" width="220" height="100" rx="50"/></svg><span class="lb">owal</span><span class="lb muted">start / stop</span></div>
+<div class="sh s1"><svg viewBox="0 0 240 140"><rect x="10" y="20" width="220" height="100" rx="6"/></svg><span class="lb">prostokąt</span><span class="lb muted">operacja</span></div>
+<div class="sh s2"><svg viewBox="0 0 240 140"><polygon points="120,5 235,70 120,135 5,70"/></svg><span class="lb">romb</span><span class="lb muted">warunek</span></div>
+<div class="sh s3"><svg viewBox="0 0 240 140"><polygon points="50,20 235,20 190,120 5,120"/></svg><span class="lb">równoległobok</span><span class="lb muted">wejście / wyjście</span></div>
         </div>
       </div>
       <script>
@@ -49,15 +51,16 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo($(".t"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, 0.1);
-tl.fromTo($(".t .c0"), { backgroundColor: "rgba(62,224,143,0)" }, { backgroundColor: "rgba(62,224,143,.12)", duration: 0.4 }, V(2.3));
-tl.fromTo($(".kl"), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(2.4));
-tl.to([$(".t .r0 .c1"), $(".t .r2 .c1")], { color: "#f5c518", duration: 0.3 }, V(7.3));
-tl.to($(".kl"), { opacity: 0, duration: 0.3 }, V(7.2));
-tl.fromTo($(".same"), { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(7.5));
-tl.fromTo([$(".t .r0 .c0"), $(".t .r2 .c0")], { scale: 1 }, { scale: 1.2, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 1 }, V(8.0));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 8.95);
+tl.fromTo($(".f0"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(3.55));
+tl.fromTo($(".f1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.5));
+tl.fromTo($(".f2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.23));
+tl.fromTo($(".a0"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(4.3));
+tl.fromTo($(".a1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(5.03));
+tl.fromTo($(".s0"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(7.73));
+tl.fromTo($(".s1"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(9.12));
+tl.fromTo($(".s2"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(10.48));
+tl.fromTo($(".s3"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(11.5));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 14.49);
           window.__timelines["s03"] = tl;
         })();
       </script>

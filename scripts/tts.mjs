@@ -2,21 +2,22 @@ import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 import { mkdirSync, renameSync, rmSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
-const VOICE = "ru-RU-DmitryNeural";
-const RATE = "+8%";
+const VOICE = "pl-PL-MarekNeural";
+const RATE = "+10%";
 
 // Spoken text; tech terms spelled phonetically so the voice reads them naturally.
 const lines = [
-  "Каждый раз, когда ты входишь в приложение, ищешь товар или смотришь историю заказов, где-то работает база данных. Как она устроена?",
-  "Самые популярные базы реляционные. Данные хранятся в таблицах: строки это записи, а столбцы это поля, например имя, почта и город.",
-  "У каждой строки есть уникальный номер, первичный ключ. По нему запись находится без путаницы, даже если двух людей зовут одинаково.",
-  "С базой разговаривают на языке эс-кью-эль. Запрос селект говорит: дай мне имена пользователей из Варшавы. А как их найти, база решает сама.",
-  "Есть четыре базовые операции: инсерт добавляет, селект читает, апдейт изменяет, а делит удаляет. Почти любое приложение построено на них.",
-  "Таблицы связаны между собой. Заказ хранит номер клиента, а запрос с джойном соединяет заказы с именами клиентов.",
-  "Чтобы поиск был быстрым, нужны индексы. Без индекса база просматривает все строки подряд, а с индексом сразу находит нужную, как по оглавлению книги.",
-  "Транзакция объединяет несколько операций в одну. Например, перевод денег: списать с одного счёта и зачислить на другой. Выполняется либо всё, либо ничего.",
-  "Бывают и нереляционные базы, но-эс-кью-эль. Например, документы в формате джейсон или пары ключ и значение. Они удобны, когда структура данных часто меняется.",
-  "Таблицы, ключи, эс-кью-эль, индексы и транзакции. Так работают базы данных. Попробуй сам: открой онлайн-песочницу и выполни свой первый селект."
+  "Oprogramowanie użytkowe w dwie minuty: Word, Excel, wu be a i projekt na zaliczenie. Oto wszystko, co naprawdę musisz wiedzieć.",
+  "Przedmiot ma siedem zjazdów. Zaliczasz go dwoma projektami: aplikacją w Excelu z wu be a i bazą danych w Accessie. Ocena to średnia z projektów plus pięć pytań do każdego z nich.",
+  "Wszystko zaczyna się od algorytmu. To przepis: dane wejściowe, przetwarzanie i dane wyjściowe. W schemacie blokowym owal to start i stop, prostokąt to operacja, romb to warunek, a równoległobok to wejście i wyjście.",
+  "W Wordzie tabela też liczy. Formuła zawsze zaczyna się od znaku równości: suma powyżej, suma z lewej, średnia, minimum i maksimum. Format zero przecinek zero zero daje dwa miejsca po przecinku.",
+  "Makro to mały program w języku wu be a. Rejestrator zapamiętuje twoje kroki, ale nie ruchy myszy. Gotowe makro przypisujesz do skrótu klawiszy albo do przycisku.",
+  "Excel. Skoroszyt to plik, arkusz to karta, a komórka ma adres, na przykład A1. Przy kopiowaniu adres A1 się przesuwa, a dolar A dolar 1 zostaje w miejscu.",
+  "Edytor wu be a otwierasz skrótem Alt F11. Plik zapisujesz jako iks el es em, czyli z obsługą makr. Kod piszesz w module, między słowami Sub i End Sub.",
+  "Dim deklaruje zmienną. InputBox pyta użytkownika, a MsgBox pokazuje komunikat. If wybiera drogę, a pętle For i Do powtarzają kroki.",
+  "UserForm to okno twojej aplikacji. Z przybornika wstawiasz etykiety, pola tekstowe, listy i przyciski. Dwuklik na przycisku otwiera kod zdarzenia Click. UserForm1 kropka Show otwiera formularz, a Unload Me go zamyka.",
+  "Projekt na zaliczenie: tabela z danymi, przycisk w obszarze nieroboczym i formularz. Przyciski nazywasz czasownikami: dodaj, edytuj, sortuj, utwórz tabelę przestawną. Kolumny nazywasz rzeczownikami.",
+  "Algorytm, formuły, makra, adresowanie, wu be a i UserForm. Na obronie znaj swój kod i umiej powiedzieć, co robi każdy przycisk. Powodzenia!",
 ];
 
 const only = process.argv[2] ? Number(process.argv[2]) : null;

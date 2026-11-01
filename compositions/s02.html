@@ -1,37 +1,26 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s02-root { position:absolute; inset:0; }
 #s02-root .stage { position:absolute; inset:0; }
-#s02-root .hd { position:absolute; left:140px; top:96px; }
-#s02-root .tb { position:absolute; border-radius:22px; background:var(--panel); border:1.5px solid var(--line); overflow:hidden; }
-#s02-root .tr { display:flex; height:76px; align-items:center; border-top:1.5px solid var(--line); position:relative; }
-#s02-root .tr.th { border-top:none; color:var(--muted); background:#0e1311; }
-#s02-root .tc { padding:0 24px; white-space:nowrap; }
-
-#s02-root .hl { position:absolute; border-radius:14px; border:3px solid var(--green); background:rgba(62,224,143,.06); }
-#s02-root .rowhl { left:370px; top:416px; width:1160px; height:76px; }
-#s02-root .colhl { left:750px; top:340px; width:480px; height:380px; border-color:var(--yellow); background:rgba(245,197,24,.06); }
-#s02-root .lr { position:absolute; left:370px; top:760px; color:var(--green); }
-#s02-root .lc { position:absolute; left:750px; top:810px; color:var(--yellow); }
-
+#s02-root .hd { position:absolute; left:140px; top:96px; }#s02-root .ci { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; text-align:center; }
+#s02-root .ci .ic { width:72px; height:72px; stroke-width:1.5; color:var(--green); }
+#s02-root .zj { position:absolute; left:140px; top:270px; display:flex; gap:22px; }
+#s02-root .zj span { width:200px; height:96px; border-radius:20px; border:1.5px solid var(--line); background:var(--panel); display:flex; align-items:center; justify-content:center; }
+#s02-root .p0 { left:140px; top:450px; width:780px; height:260px; }
+#s02-root .p1 { left:1000px; top:450px; width:780px; height:260px; }
+#s02-root .oc { position:absolute; left:140px; top:800px; width:1640px; text-align:center; }
       </style>
-      <div data-hf-id="hf-8ks8" id="s02-root" data-composition-id="s02" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-bks6" class="hd">Данные в <span data-hf-id="hf-45s3" class="g">таблицах</span></h1>
-<div data-hf-id="hf-zuzj" class="tb t" style="left:370px; top:340px; width:1160px">
-<div data-hf-id="hf-k0e6" class="tr th"><span data-hf-id="hf-56d7" class="tc lb c0" style="width:140px">id</span><span data-hf-id="hf-u1ld" class="tc lb c1" style="width:240px">имя</span><span data-hf-id="hf-d6vz" class="tc lb c2" style="width:480px">почта</span><span data-hf-id="hf-iuog" class="tc lb c3" style="width:300px">город</span></div>
-<div data-hf-id="hf-gtjw" class="tr r0"><span data-hf-id="hf-9wm2" class="tc mono c0" style="width:140px">1</span><span data-hf-id="hf-ccpz" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-ze0s" class="tc mono c2" style="width:480px">anna@mail.ru</span><span data-hf-id="hf-xnj2" class="tc mono c3" style="width:300px">Варшава</span></div>
-<div data-hf-id="hf-hl7p" class="tr r1"><span data-hf-id="hf-aax3" class="tc mono c0" style="width:140px">2</span><span data-hf-id="hf-hfvw" class="tc mono c1" style="width:240px">Иван</span><span data-hf-id="hf-uloa" class="tc mono c2" style="width:480px">ivan@mail.ru</span><span data-hf-id="hf-k8ma" class="tc mono c3" style="width:300px">Краков</span></div>
-<div data-hf-id="hf-ljbq" class="tr r2"><span data-hf-id="hf-ap84" class="tc mono c0" style="width:140px">3</span><span data-hf-id="hf-g2rr" class="tc mono c1" style="width:240px">Анна</span><span data-hf-id="hf-tt7z" class="tc mono c2" style="width:480px">anna.k@mail.ru</span><span data-hf-id="hf-zmtt" class="tc mono c3" style="width:300px">Гданьск</span></div>
-<div data-hf-id="hf-phfr" class="tr r3"><span data-hf-id="hf-b3j5" class="tc mono c0" style="width:140px">4</span><span data-hf-id="hf-x0q2" class="tc mono c1" style="width:240px">Олег</span><span data-hf-id="hf-4n7h" class="tc mono c2" style="width:480px">oleg@mail.ru</span><span data-hf-id="hf-nkn6" class="tc mono c3" style="width:300px">Варшава</span></div>
-</div>
-<div data-hf-id="hf-e0ks" class="hl rowhl"></div><div data-hf-id="hf-kf0m" class="hl colhl"></div>
-<div data-hf-id="hf-r18p" class="lr lb">строка = запись</div><div data-hf-id="hf-a1jn" class="lc lb">столбец = поле</div>
+      <div id="s02-root" data-composition-id="s02" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd">Jak <span class="g">zaliczyć</span>?</h1>
+<div class="zj"><span class="lb z1">zjazd 1</span><span class="lb z2">zjazd 2</span><span class="lb z3">zjazd 3</span><span class="lb z4">zjazd 4</span><span class="lb z5">zjazd 5</span><span class="lb z6">zjazd 6</span><span class="lb z7">zjazd 7</span></div>
+<div class="card ci p0"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="18" height="18" x="3" y="3" rx="2" ry="2" /> <line x1="3" x2="21" y1="9" y2="9" /> <line x1="3" x2="21" y1="15" y2="15" /> <line x1="9" x2="9" y1="9" y2="21" /> <line x1="15" x2="15" y1="9" y2="21" /> </svg> <span class="lb">Projekt 1: Excel + VBA</span></div>
+<div class="card ci p1"><svg class="ic " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <ellipse cx="12" cy="5" rx="9" ry="3" /> <path d="M3 5V19A9 3 0 0 0 21 19V5" /> <path d="M3 12A9 3 0 0 0 21 12" /> </svg> <span class="lb">Projekt 2: Access</span></div>
+<div class="lb oc">ocena = <span class="g">średnia z projektów</span> + <span class="y">5 pytań</span> do każdego</div>
         </div>
       </div>
       <script>
@@ -50,17 +39,11 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo($(".t"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(1.4));
-tl.fromTo($(".t .tr:not(.th)"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.35, ease: E, stagger: 0.12 }, V(3.0));
-tl.fromTo([$(".rowhl"), $(".lr")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(4.7));
-tl.to($(".rowhl"), { opacity: 0, duration: 0.3 }, V(5.9));
-tl.fromTo([$(".colhl"), $(".lc")], { opacity: 0 }, { opacity: 1, duration: 0.4 }, V(6.05));
-tl.to($(".colhl"), { opacity: 0, duration: 0.3 }, V(7.4));
-tl.to($(".t .th .c1"), { color: "#3ee08f", duration: 0.3 }, V(7.7));
-tl.to($(".t .th .c2"), { color: "#3ee08f", duration: 0.3 }, V(8.2));
-tl.to($(".t .th .c3"), { color: "#3ee08f", duration: 0.3 }, V(8.8));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 9.65);
+tl.fromTo($(".zj span"), { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.35, ease: E, stagger: 0.09 }, V(0.67));
+tl.fromTo($(".p0"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(3.99));
+tl.fromTo($(".p1"), { opacity: 0, scale: 0.92 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, V(5.69));
+tl.fromTo($(".oc"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(7.78));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 11.97);
           window.__timelines["s02"] = tl;
         })();
       </script>

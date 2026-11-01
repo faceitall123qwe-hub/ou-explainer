@@ -1,54 +1,31 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head><meta charset="UTF-8"></head>
+<!doctype html>
+<html lang="pl">
+  <head><meta charset="UTF-8" /></head>
   <body>
     <template>
       <style>
 #s06-root { position:absolute; inset:0; }
 #s06-root .stage { position:absolute; inset:0; }
 #s06-root .hd { position:absolute; left:140px; top:96px; }
-#s06-root .tb { position:absolute; border-radius:22px; background:var(--panel); border:1.5px solid var(--line); overflow:hidden; }
-#s06-root .tr { display:flex; height:76px; align-items:center; border-top:1.5px solid var(--line); position:relative; }
-#s06-root .tr.th { border-top:none; color:var(--muted); background:#0e1311; }
-#s06-root .tc { padding:0 24px; white-space:nowrap; }
-
-#s06-root .o .c1 { color:var(--yellow); }
-#s06-root .u .c0 { color:var(--yellow); }
-#s06-root .lbl { position:absolute; top:260px; color:var(--muted); }
-#s06-root .lo { left:140px; } #s06-root .lu { left:1100px; }
-#s06-root .wire .jl { stroke:var(--yellow); stroke-width:2.5; }
-#s06-root .jn { position:absolute; left:140px; top:690px; display:flex; align-items:center; gap:20px; }
-#s06-root .jn .mono { color:var(--yellow); font-size:52px; }
-
+#s06-root .tg { position:absolute; left:140px; top:300px; display:grid; grid-template-columns:80px repeat(3, 192px); grid-auto-rows:96px; border:1.5px solid var(--line); border-radius:18px; overflow:hidden; background:var(--panel); }
+#s06-root .tg span { display:flex; align-items:center; justify-content:center; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
+#s06-root .tg .h { color:var(--muted); background:#0e1311; }
+#s06-root .a1 { outline:4px solid var(--green); outline-offset:-4px; color:var(--green); }
+#s06-root .tx { position:absolute; left:900px; width:900px; }
+#s06-root .x0 { top:290px; } #s06-root .x1 { top:370px; } #s06-root .x2 { top:450px; }
+#s06-root .cp { position:absolute; left:900px; width:900px; display:flex; flex-direction:column; gap:8px; }
+#s06-root .c0 { top:600px; } #s06-root .c1 { top:770px; }
+#s06-root .cp .mono b { font-weight:500; }
       </style>
-      <div data-hf-id="hf-vgjc" id="s06-root" data-composition-id="s06" data-width="1920" data-height="1080">
-        <div data-hf-id="hf-tan6" class="stage">
-
-<h1 data-hf-id="hf-ybvp" class="hd">Связи и <span data-hf-id="hf-3liw" class="g">JOIN</span></h1>
-<div data-hf-id="hf-am3m" class="lbl lo lb">заказы</div><div data-hf-id="hf-7vh5" class="lbl lu lb">клиенты</div>
-<div data-hf-id="hf-fhx4" class="tb o" style="left:140px; top:320px; width:720px">
-<div data-hf-id="hf-k0e6" class="tr th"><span data-hf-id="hf-585d" class="tc lb c0" style="width:200px">заказ</span><span data-hf-id="hf-1xsx" class="tc lb c1" style="width:280px">клиент_id</span><span data-hf-id="hf-27zt" class="tc lb c2" style="width:240px">сумма</span></div>
-<div data-hf-id="hf-gtjw" class="tr r0"><span data-hf-id="hf-759s" class="tc mono c0" style="width:200px">101</span><span data-hf-id="hf-ktys" class="tc mono c1" style="width:280px">1</span><span data-hf-id="hf-et1f" class="tc mono c2" style="width:240px">250&#160;zł</span></div>
-<div data-hf-id="hf-hl7p" class="tr r1"><span data-hf-id="hf-5ycp" class="tc mono c0" style="width:200px">102</span><span data-hf-id="hf-m0vv" class="tc mono c1" style="width:280px">4</span><span data-hf-id="hf-wida" class="tc mono c2" style="width:240px">80&#160;zł</span></div>
-<div data-hf-id="hf-ljbq" class="tr r2"><span data-hf-id="hf-6cnq" class="tc mono c0" style="width:200px">103</span><span data-hf-id="hf-oi4s" class="tc mono c1" style="width:280px">1</span><span data-hf-id="hf-wezh" class="tc mono c2" style="width:240px">120&#160;zł</span></div>
-</div>
-<div data-hf-id="hf-ixk3" class="tb u" style="left:1100px; top:320px; width:380px">
-<div data-hf-id="hf-6rj6" class="tr th"><span data-hf-id="hf-56d7" class="tc lb c0" style="width:140px">id</span><span data-hf-id="hf-u1ld" class="tc lb c1" style="width:240px">имя</span></div>
-<div data-hf-id="hf-emj8" class="tr r0"><span data-hf-id="hf-9wm2" class="tc mono c0" style="width:140px">1</span><span data-hf-id="hf-ccpz" class="tc mono c1" style="width:240px">Анна</span></div>
-<div data-hf-id="hf-pibd" class="tr r1"><span data-hf-id="hf-b3j5" class="tc mono c0" style="width:140px">4</span><span data-hf-id="hf-x0q2" class="tc mono c1" style="width:240px">Олег</span></div>
-</div>
-<svg data-hf-id="hf-dimw" class="wire" viewBox="0 0 1920 1080">
-  <path data-hf-id="hf-bbak" class="jl j0" pathLength="1" d="M860 434 C 980 434, 980 434, 1100 434" />
-  <path data-hf-id="hf-biiz" class="jl j1" pathLength="1" d="M860 510 C 980 510, 980 510, 1100 510" />
-  <path data-hf-id="hf-pw36" class="jl j2" pathLength="1" d="M860 586 C 980 586, 980 434, 1100 434" />
-</svg>
-<div data-hf-id="hf-qdg8" class="jn"><span data-hf-id="hf-3zuo" class="mono">JOIN</span><span data-hf-id="hf-araj" class="lb">→</span></div>
-<div data-hf-id="hf-y3nf" class="tb rs" style="left:480px; top:680px; width:480px">
-<div data-hf-id="hf-75u7" class="tr th"><span data-hf-id="hf-xesy" class="tc lb c0" style="width:240px">имя</span><span data-hf-id="hf-chls" class="tc lb c1" style="width:240px">сумма</span></div>
-<div data-hf-id="hf-dfm5" class="tr r0"><span data-hf-id="hf-na8u" class="tc mono c0" style="width:240px">Анна</span><span data-hf-id="hf-xlww" class="tc mono c1" style="width:240px">250&#160;zł</span></div>
-<div data-hf-id="hf-qp8g" class="tr r1"><span data-hf-id="hf-5i9j" class="tc mono c0" style="width:240px">Олег</span><span data-hf-id="hf-k4cj" class="tc mono c1" style="width:240px">80&#160;zł</span></div>
-<div data-hf-id="hf-j5yy" class="tr r2"><span data-hf-id="hf-1f9e" class="tc mono c0" style="width:240px">Анна</span><span data-hf-id="hf-bolm" class="tc mono c1" style="width:240px">120&#160;zł</span></div>
-</div>
+      <div id="s06-root" data-composition-id="s06" data-width="1920" data-height="1080">
+        <div class="stage">
+<h1 class="hd"><span class="g">Excel</span>: adres komórki</h1>
+<div class="tg mono"><span class="h"></span><span class="h">A</span><span class="h">B</span><span class="h">C</span><span class="h">1</span><span class="A a1">A1</span><span class="B"></span><span class="C"></span><span class="h">2</span><span class="A"></span><span class="B"></span><span class="C"></span><span class="h">3</span><span class="A"></span><span class="B"></span><span class="C"></span></div>
+<div class="lb tx x0">skoroszyt = <span class="g">plik</span></div>
+<div class="lb tx x1">arkusz = <span class="g">karta</span></div>
+<div class="lb tx x2">komórka = <span class="g">adres</span></div>
+<div class="cp c0"><span class="mono">=A1 <span class="muted">→</span> =C3</span><span class="lb muted">względny: przesuwa się</span></div>
+<div class="cp c1"><span class="mono y">=$A$1 <span class="muted">→</span> =$A$1</span><span class="lb muted">bezwzględny: zostaje</span></div>
         </div>
       </div>
       <script>
@@ -67,14 +44,14 @@
           }
           tl.fromTo($(".stage"), { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.5, ease: "power2.out" }, 0);
 tl.fromTo($(".hd"), { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, 0.2);
-tl.fromTo([$(".lo"), $(".o")], { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(0.4));
-tl.fromTo([$(".lu"), $(".u")], { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(0.8));
-tl.to($(".o .th .c1"), { color: "#f5c518", duration: 0.3 }, V(3.7));
-draw(".j0", V(4.0), 0.4); draw(".j1", V(4.15), 0.4); draw(".j2", V(4.3), 0.4);
-tl.fromTo($(".jn"), { opacity: 0, x: -10 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, V(5.2));
-tl.fromTo($(".rs"), { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, V(5.8));
-
-          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 8.15);
+tl.fromTo($(".tg"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(0.9));
+tl.fromTo($(".x0"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(1.56));
+tl.fromTo($(".x1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(2.78));
+tl.fromTo($(".x2"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(3.97));
+tl.fromTo($(".a1"), { scale: 1 }, { scale: 1.12, duration: 0.25, yoyo: true, repeat: 1 }, V(5.24));
+tl.fromTo($(".c0"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(7.28));
+tl.fromTo($(".c1"), { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, V(9.39));
+          tl.to($(".stage"), { opacity: 0, filter: "blur(6px)", y: -10, duration: 0.4, ease: "power2.inOut" }, 12.59);
           window.__timelines["s06"] = tl;
         })();
       </script>
